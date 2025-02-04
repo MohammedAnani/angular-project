@@ -1,0 +1,26 @@
+.form-control:focus
+{
+box-shadow: none;
+}
+.form-control:focus ~label
+{
+color: var(--bg-main);
+font-size: 20px;}
+
+.btn{
+  background-color: var(--bg-main);
+  color: white;
+}
+.top-40{
+  top: 40px;
+}
+
+@media (min-width:768px) {
+.contact{
+  width: 50%!important;
+  margin: auto;
+}
+
+}
+
+/*  */

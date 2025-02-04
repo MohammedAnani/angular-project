@@ -1,0 +1,16 @@
+.social
+{
+  border: 1px solid white;
+  margin-right: 7px;
+  border-radius: 50%;
+}
+.social:hover
+{
+cursor: pointer;
+background-color: var(--bg-main);
+}
+
+.end-footer{
+  background-color: #0B1015;
+  padding: 20px;
+}

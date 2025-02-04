@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root{
+  --bg-main:#1E2A38 ;
+  --bg-sec:#2C3E50    ;
+}
+
+.bg-sec{
+  background-color: var(--bg-sec);
+}
+.bg-main{
+  background-color: var(--bg-main);
+}
+.text-color{
+  color: var(--bg-sec);
+}
+a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+
+.pad-100
+{
+  padding-top:88px ;
+}
+.icons{
+  background-color: var(--bg-main);
+  /* padding: 5px; */
+  border-radius: 8px;
+}
+/*  */
