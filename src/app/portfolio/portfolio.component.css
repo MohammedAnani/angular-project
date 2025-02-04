@@ -15,13 +15,13 @@ figure:hover figcaption{
 .model{
   background-color: rgba(44, 62, 80,.5);
 }
-img{
+.model img{
   z-index: 99999 !important;
   margin: 10px;
 }
 
 @media (max-width:768px){
-  img{
+  .model img{
     width: 80% !important;
     margin: auto;
   }

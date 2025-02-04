@@ -5,9 +5,9 @@
     <div class="row g-3">
       @for (item of imagesPortfolios; track $index) {
         <div class="col-md-4">
-          <figure class="position-relative" (click)="isHiding=false ;modelImage= item">
+          <figure class="position-relative " (click)="isHiding=false ;modelImage= item">
             <img  [src]="item" alt="" class="w-100 ">
-            <figcaption class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-black   ">
+            <figcaption class="position-absolute top-0 start-0 w-100 h-100 bg-black d-flex align-items-center justify-content-center    ">
               <i class="fa-solid fa-plus fa-6x text-white"></i>
             </figcaption>
           </figure>
@@ -18,7 +18,7 @@
 
 
 </section>
-<div  [class.d-none]="isHiding" (click)="clickMe($event.target ,img)" class="model position-fixed start-0 h-100 w-100 top-0 d-flex justify-content-center align-items-center z-3" >
+<div  [class.d-none]="isHiding" (click)="clickMe($event.target ,img)" class="model position-fixed start-0 h-100 w-100 top-0  d-flex justify-content-center align-items-center z-3" >
 
   <img #img [src]="modelImage" alt="" class=" m-5 rounded-3">
 
