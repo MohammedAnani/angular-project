@@ -29,7 +29,7 @@ export class NavbarComponent {
       !this.navbarNav.nativeElement.contains(event.target) &&
       !this.toggler.nativeElement.contains(event.target)
     ) {
-      this.toggler.nativeElement.click(); // يغلق القائمة
+      this.toggler.nativeElement.click(); 
     }
   }
 }

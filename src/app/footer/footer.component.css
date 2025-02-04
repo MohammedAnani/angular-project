@@ -4,6 +4,10 @@
   margin-right: 7px;
   border-radius: 50%;
 }
+a{
+  display: inline-block;
+  color: white;
+}
 .social:hover
 {
 cursor: pointer;
